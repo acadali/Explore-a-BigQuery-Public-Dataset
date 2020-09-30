@@ -5,7 +5,7 @@ Explore Different data in BigQuery
 First log in to GCP platform, and from the navigation side menu, select BigQuery and pinned it too. 
  
 After clicking BigQuery, click “Add Data” and explore public data.
- <h>asad</h>
+
 After selecting any public data, click “View Dataset”. In this case I have selected Austin Crime Data.
  
 In that dataset, there is another dataset of bikeshare in Austin. I used that dataset. Once the data is loaded, we can write the query in query section.
