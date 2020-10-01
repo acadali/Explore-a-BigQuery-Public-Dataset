@@ -25,8 +25,9 @@ After selecting any public data, click &quot;View Dataset&quot;. In this case I 
 
 
 In that dataset, there is another dataset of bikeshare in Austin. I used that dataset. Once the data is loaded, we can write the query in query section.
+Copy the query and write it in query editor
 
-`1. select * from `bigquery-public-data.austin_bikeshare.bikeshare_trips`;`
+<b>select * from `bigquery-public-data.austin_bikeshare.bikeshare_trips`;</b>
 
 
 ![Test Image 4]( https://github.com/acadali/Explore-a-BigQuery-Public-Dataset/blob/master/4.png)
