@@ -48,7 +48,7 @@ Once we created a dataset, we have to create the table with the data.
 
 When click on create table, select the CSV file from your system which you have downloaded. And fill the other information like in the figure below. And click &quot;Create Table&quot;.
 
-![Test Image 4]([https://github.com/acadali/Explore-a-BigQuery-Public-Dataset/blob/master/8.png](https://github.com/acadali/Explore-a-BigQuery-Public-Dataset/blob/master/8.png))
+![Test Image 4](https://github.com/acadali/Explore-a-BigQuery-Public-Dataset/blob/master/8.png)
 
 1. SELECT name, count FROM `BabyNames.Names2018` WHERE gender = &#39;F&#39; ORDER BY count DESC LIMIT 5
 
