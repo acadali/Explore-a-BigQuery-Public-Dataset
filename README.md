@@ -32,8 +32,11 @@ Copy the query and write it in query editor
 
 ![Test Image 4]( https://github.com/acadali/Explore-a-BigQuery-Public-Dataset/blob/master/4.png)
 
-
-     select start_station_name, end_station_name,subscriber_type, sum(duration_minutes) as totaltime from `bigquery-public-data.austin_bikeshare.bikeshare_trips`group by start_station_name, end_station_name,subscriber_type limit 10;
+Write another query in query editor and see the result:
+     select start_station_name, end_station_name,subscriber_type, sum(duration_minutes) as totaltime
+     from `bigquery-public-data.austin_bikeshare.bikeshare_trips`
+     group by start_station_name, end_station_name,subscriber_type
+     limit 10;
 
 ![Test Image 4]( https://github.com/acadali/Explore-a-BigQuery-Public-Dataset/blob/master/5.png)
 
