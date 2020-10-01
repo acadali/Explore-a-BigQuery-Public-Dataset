@@ -33,7 +33,7 @@ Copy the query and write it in query editor
 ![Test Image 4]( https://github.com/acadali/Explore-a-BigQuery-Public-Dataset/blob/master/4.png)
 
 
-<b>`select start_station_name, end_station_name,subscriber_type, sum(duration_minutes) as totaltime from `bigquery-public-data.austin_bikeshare.bikeshare_trips`group by start_station_name, end_station_name,subscriber_type limit 10;`</b>
+     `select start_station_name, end_station_name,subscriber_type, sum(duration_minutes) as totaltime from `bigquery-public-data.austin_bikeshare.bikeshare_trips`group by start_station_name, end_station_name,subscriber_type limit 10;`
 
 ![Test Image 4]( https://github.com/acadali/Explore-a-BigQuery-Public-Dataset/blob/master/5.png)
 
@@ -53,6 +53,6 @@ When click on create table, select the CSV file from your system which you have 
 
 ![Test Image 4](https://github.com/acadali/Explore-a-BigQuery-Public-Dataset/blob/master/9.png)
 
- `SELECT name, count FROM `BabyNames.Names2018` WHERE gender = &#39;F&#39; ORDER BY count DESC LIMIT 5`
+     `SELECT name, count FROM `BabyNames.Names2018` WHERE gender = &#39;F&#39; ORDER BY count DESC LIMIT 5`
 
 ![Test Image 4]( https://github.com/acadali/Explore-a-BigQuery-Public-Dataset/blob/master/9.png)
