@@ -8,27 +8,33 @@ The following lab is to explore BigQuery and get hands on experience.
 
 First log in to GCP platform, and from the navigation side menu, select BigQuery and pinned it too.
 
+
 ![Test Image 4]( https://github.com/acadali/Explore-a-BigQuery-Public-Dataset/blob/master/1.png)
+
 
 After clicking BigQuery, click &quot;Add Data&quot; and explore public data.
 
+
 ![Test Image 4]( https://github.com/acadali/Explore-a-BigQuery-Public-Dataset/blob/master/2.png)
+
 
 After selecting any public data, click &quot;View Dataset&quot;. In this case I have selected Austin Crime Data.
 
+
 ![Test Image 4]( https://github.com/acadali/Explore-a-BigQuery-Public-Dataset/blob/master/3.png)
+
 
 In that dataset, there is another dataset of bikeshare in Austin. I used that dataset. Once the data is loaded, we can write the query in query section.
 
-1. `select * from `bigquery-public-data.austin\_bikeshare.bikeshare\_trips`;`
+1. `select * from ``bigquery-public-data.austin\_bikeshare.bikeshare\_trips``;`
+
 
 ![Test Image 4]( https://github.com/acadali/Explore-a-BigQuery-Public-Dataset/blob/master/4.png)
 
-1. `select start\_station\_name, end\_station\_name,subscriber\_type, sum(duration\_minutes) as totaltime
 
-from `bigquery-public-data.austin_bikeshare.bikeshare_trips`
+1. `select start\_station\_name, end\_station\_name,subscriber\_type, sum(duration\_minutes) as totaltime from ``bigquery-public-data.austin_bikeshare.bikeshare_trips`
 
-group by start\_station\_name, end\_station\_name,subscriber\_type
+`group by start\_station\_name, end\_station\_name,subscriber\_type
 
 limit 10;`
 
