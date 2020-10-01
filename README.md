@@ -53,6 +53,6 @@ When click on create table, select the CSV file from your system which you have 
 
 ![Test Image 4](https://github.com/acadali/Explore-a-BigQuery-Public-Dataset/blob/master/9.png)
 
-     SELECT name, count FROM `BabyNames.Names2018` WHERE gender ='F'; ORDER BY count DESC LIMIT 5
+     SELECT name, count FROM `BabyNames.Names2018` WHERE gender ='F' ORDER BY count DESC LIMIT 5;
 
 ![Test Image 4]( https://github.com/acadali/Explore-a-BigQuery-Public-Dataset/blob/master/9.png)
