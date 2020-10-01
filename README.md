@@ -32,11 +32,7 @@ In that dataset, there is another dataset of bikeshare in Austin. I used that da
 ![Test Image 4]( https://github.com/acadali/Explore-a-BigQuery-Public-Dataset/blob/master/4.png)
 
 
-1. `select start\_station\_name, end\_station\_name,subscriber\_type, sum(duration\_minutes) as totaltime from ``bigquery-public-data.austin_bikeshare.bikeshare_trips`
-
-`group by start\_station\_name, end\_station\_name,subscriber\_type
-
-limit 10;`
+1. `select start\_station\_name, end\_station\_name,subscriber\_type, sum(duration\_minutes) as totaltime from ``bigquery-public-data.austin_bikeshare.bikeshare_trips``group by start\_station\_name, end\_station\_name,subscriber\_type limit 10;`
 
 ![Test Image 4]( https://github.com/acadali/Explore-a-BigQuery-Public-Dataset/blob/master/5.png)
 
