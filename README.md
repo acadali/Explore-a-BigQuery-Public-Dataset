@@ -27,13 +27,13 @@ After selecting any public data, click &quot;View Dataset&quot;. In this case I 
 In that dataset, there is another dataset of bikeshare in Austin. I used that dataset. Once the data is loaded, we can write the query in query section.
 Copy the query and write it in query editor
 
-     select * from `bigquery-public-data.austin_bikeshare.bikeshare_trips`;`
+     select * from `bigquery-public-data.austin_bikeshare.bikeshare_trips`;
 
 
 ![Test Image 4]( https://github.com/acadali/Explore-a-BigQuery-Public-Dataset/blob/master/4.png)
 
 
-     `select start_station_name, end_station_name,subscriber_type, sum(duration_minutes) as totaltime from `bigquery-public-data.austin_bikeshare.bikeshare_trips`group by start_station_name, end_station_name,subscriber_type limit 10;`
+     select start_station_name, end_station_name,subscriber_type, sum(duration_minutes) as totaltime from `bigquery-public-data.austin_bikeshare.bikeshare_trips`group by start_station_name, end_station_name,subscriber_type limit 10;
 
 ![Test Image 4]( https://github.com/acadali/Explore-a-BigQuery-Public-Dataset/blob/master/5.png)
 
@@ -53,6 +53,6 @@ When click on create table, select the CSV file from your system which you have 
 
 ![Test Image 4](https://github.com/acadali/Explore-a-BigQuery-Public-Dataset/blob/master/9.png)
 
-     `SELECT name, count FROM `BabyNames.Names2018` WHERE gender = &#39;F&#39; ORDER BY count DESC LIMIT 5`
+     SELECT name, count FROM `BabyNames.Names2018` WHERE gender = &#39;F&#39; ORDER BY count DESC LIMIT 5
 
 ![Test Image 4]( https://github.com/acadali/Explore-a-BigQuery-Public-Dataset/blob/master/9.png)
